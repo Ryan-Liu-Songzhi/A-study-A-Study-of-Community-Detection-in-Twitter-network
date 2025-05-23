@@ -59,7 +59,7 @@ The project follows a structured pipeline:
 
 ## 3. Dataset
 
-* **Source**: SNAP (Stanford Network Analysis Project) - [Twitter social graph](https://snap.stanford.edu/data/ego-Twitter.html) (`twitter_combined.txt`).
+* **Source**: SNAP (Stanford Network Analysis Project) - [Twitter social graph](https://snap.stanford.edu/data/ego-Twitter.html) (`twitter_combined.txt`). You can download it directly from our release.
 * **Description**: This dataset represents a network of Twitter users, where nodes are users and edges represent "follows" relationships. The original dataset contains 81,306 nodes and 1,768,149 edges.
 * **Note**: The raw `twitter_combined.txt` dataset is **NOT** included in this repository due to its size. You need to download it from the SNAP website and place it in the path specified in the script.
 * **Processed Data**: The script performs significant preprocessing and sampling, with the core ROI analysis typically run on a smaller subgraph (`G_sample`, e.g., 294 nodes in one of the test runs).
